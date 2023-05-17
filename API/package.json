@@ -1,0 +1,14 @@
+{
+  "name": "api-quadricount",
+  "version": "1.0.0",
+  "description": "API used by the QuadriCount front app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthieu COLLETTE",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
