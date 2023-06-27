@@ -1,0 +1,24 @@
+- Créer un lien de partage, et pouvoir le lire (modele de fiche Quadricount : créé par, créé le, titre, participants) : FAIT
+- Ajouter des dépenses (count par participant) : FAIT
+- Modifier les dépenses : FAIT
+- Supprimer les dépenses : FAIT
+- Gestion des exceptions : x
+- Doc et swagger : x
+
+- Partager les sommes (qui doit payer tant d'euros à qui) : FAIT
+- Partage du lien de la dépense : x
+- Création de compte avec gestion des fiches de dépense (optionnel) : x
+
+Document JSON de test à insérer (pour moi):
+
+{
+    "name" : "test",
+    "createdBy" : "Matthieu COLLETTE",
+    "contributors": { 
+        "0" : { "Name" : "Matthieu COLLETTE" , "Mail" : "matt0221000@gmail.com"}, 
+        "1" : { "Name" : "Matthieu COLLETTE2" , "Mail" : "matt02220000@gmail.com"}
+    }
+    "toPay" : {
+        "0" : { "name" : "Courses" , "price" : "0", "payedBy" : "1"}
+    }
+}
