@@ -17,6 +17,7 @@ Dépendances React JS :
 Dépendances Node JS :
 - mongoose
 - express
+- base de données MONGODB 6.0+
 
 # Lancement de l'application
 
